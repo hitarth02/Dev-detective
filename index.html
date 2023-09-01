@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitSearch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icons/pngegg (1).png" type="image/x-icon">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div id="container">
+
+            <header>
+                <h1>GitSearch</h1>
+                <button class="theme" id="btn-mode">
+                    DARK
+                </button>
+            </header>
+    
+            <div id="box">
+    
+                <div id="search_bar">
+                    <input type="search" name="user_search" id="input" placeholder="enter username here..." class=" search-bar">
+                    <button id="submit">Search</button>
+                </div>
+    
+                
+    
+                <div id="user_info">
+                    <img id="user_profile" src="" alt="" width="120px">
+                    <div class="temp">
+                        <div id="real_name"></div>
+                        <div id="user_name"></div>
+                    </div>
+                    <div id="user_date"></div>
+                </div>
+    
+                <div class="not-found" id="not_found">
+                    
+                </div>
+    
+                <div id="user_bio">
+    
+                </div>
+    
+                <div id="user_details">
+
+                    <div id="a">Repos<div id="user_repos"></div></div>
+                    <div id="b">Followers<div id="user_followers"></div></div>
+                    <div id="c">Followings<div id="user_followings"></div></div>
+    
+                </div>
+    
+                <div id="user_extra">
+                    <div class="location same">
+                        Location:
+                        <span class="same1" id="user_location"></span>
+
+                    </div>
+                    <div class="git same">
+                        GitHub:
+                        <span class="same1" ><a href="#" id="user_github"></a></span>
+
+                    </div>
+                    <div class="tweet same">
+                        Twitter:
+                        <span class="same1" ><a href="#" id="user_twitter"></a></span>
+
+                    </div>
+                    <div class="company same">
+                        Company:
+                        <span class="same1" id="user_company"></span>
+
+                    </div>
+                </div>
+    
+    
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
